@@ -1,0 +1,133 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+commands.txt
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environment directories
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/ 
+
+
+# Pip environment
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.coverage.*
+
+# Pytest caches
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyright static type checker
+.pyright/
+
+# Cython debug symbols
+cython_debug/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# PyCharm / IntelliJ IDE settings
+.idea/
+
+# VS Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# MacOS files
+.DS_Store
+
+# Thumbnails
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Ignore .env files in all directories
+**/.env
+**/.env.*
+
+# Ignore aneldev_credentials
+aneldev_credentials.csv
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Sphinx documentation
+docs/_build/
+
+# PEP 582; used by python3-pip+ and poetry
+__pypackages__/
+
+# Pyre type checker
+.pyre/
