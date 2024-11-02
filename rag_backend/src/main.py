@@ -112,7 +112,3 @@ async def embed_directory_endpoint(request: EmbedDirectoryRequest):
 if __name__ == "__main__":
     logger.info("Starting Document QA API server")
     uvicorn.run(app, host="0.0.0.0", port=8000)
-
-    # TODO Make both container and communicate
-    # TODO Improve overall design
-    # TODO Deploy to fargate and make them communicate with s3 data somehow
