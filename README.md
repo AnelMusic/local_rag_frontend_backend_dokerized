@@ -1,4 +1,5 @@
 # Local RAG System
+![image](https://github.com/user-attachments/assets/25487945-5bf3-4baa-b5e7-59d02289a860)
 
 A containerized Retrieval-Augmented Generation (RAG) system with Streamlit frontend and document processing backend. This project serves as a starter template for your local RAG applications.
 Due to containerization porting to cloud e.g AWS Fargate should be fairly easy as well.
